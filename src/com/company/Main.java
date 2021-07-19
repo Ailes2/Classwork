@@ -1,23 +1,23 @@
 package com.company;
 //
 public class Main {
-//        public static void main(String[] arg) {
-//            String str1 = "Fizz";
-//            String str2 = "Buzz";
-//
-//            for (int i = 1; i <= 100; i++) {
-//                if ((i % 3 == 0) && (i % 5 == 0))
-//                    System.out.println("i = "  + " " + str1 + str2);
-//                else if (i % 3 == 0)
-//                    System.out.println("i = "  + " " + str1);
-//                else if (i % 5 == 0)
-//                    System.out.println("i = "  + " " + str2);
-//                else System.out.println("i = " + i);
-//
-//
-//            }
-//        }
-//    }
+        public static void main(String[] arg) {
+            String str1 = "Fizz ";
+            String str2 = "Buzz ";
+
+            for (int i = 1; i <= 100; i++) {
+                if ((i % 3 == 0) && (i % 5 == 0))
+                    System.out.println("i = "  + " " + str1 + str2);
+                else if (i % 3 == 0)
+                    System.out.println("i = "  + " " + str1);
+                else if (i % 5 == 0)
+                    System.out.println("i = "  + " " + str2);
+                else System.out.println("i = " + i);
+
+
+            }
+        }
+    }
 
 
 
